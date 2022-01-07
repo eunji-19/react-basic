@@ -1,6 +1,10 @@
 import "./App.css";
-import Button from "./components/3-7.HOC/Button";
-import Input from "./components/3-7.HOC/Input";
+import Component from "./components/3-11.PropTypes/Component";
+// import Example from "./components/3-10.Portal/Example";
+// import Example from "./components/3-9.Context/Example";
+// import Memo from "./components/3-8.Memoization/Memo";
+// import Button from "./components/3-7.HOC/Button";
+// import InputCustomComponent from "./components/3-7.HOC/Input";
 // import Dialog from "./components/3-6.Composition2/Dialog";
 // import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
 // import ControlledComponent from "./components/2-10.Form/ControlledComponent";
@@ -20,10 +24,14 @@ import Input from "./components/3-7.HOC/Input";
 function App() {
   return (
     <div className="App">
-      <Input />
+      <Component />
+      {/* <Example /> */}
+      {/* <Example /> */}
+      {/* <Memo /> */}
+      {/* <InputCustomComponent />
       <br />
       <br />
-      <Button />
+      <Button /> */}
       {/* <ThankyouDialog /> */}
       {/* <Dialog /> */}
       {/* <WelcomeDialog /> */}

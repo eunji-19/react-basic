@@ -2,7 +2,9 @@
  * 2022.01.07(금)
  */
 import React from "react";
+import withLoading from "./withLoading";
 
-export default function Input() {
-  return <Input defaultValue="Input" />;
+function InputCustomComponent() {
+  return <input defaultValue="Input" />;
 }
+export default withLoading(InputCustomComponent);
